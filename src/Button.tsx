@@ -1,4 +1,6 @@
-const Button = ({ link, children }) => {
+import {ReactNode} from 'react';
+
+const Button = ({ link, children }: { link: string, children: ReactNode }) => {
   return (
     <a
       href={link}
